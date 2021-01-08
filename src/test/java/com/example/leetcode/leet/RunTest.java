@@ -12,14 +12,8 @@ import org.junit.jupiter.api.Test;
 public class RunTest {
     @Test
     public void test(){
-        ListNode n1 = new ListNode(1);
-        ListNode n2 = new ListNode(2,n1);
-        ListNode n3 = new ListNode(3,n2);
-        ListNode n4 = new ListNode(4,n3);
-        ListNode n5 = new ListNode(5,n4);
-        ListNode n6 = new ListNode(6,n5);
-        ListNode h = swapPairs(n6);
-        System.out.println(h);
+        Integer i = null;
+        System.out.println(1 < i );
     }
 
     public ListNode mergeKLists(ListNode[] lists) {
@@ -31,7 +25,7 @@ public class RunTest {
         ListNode p1 = n1;
         ListNode p2 = n2;
         ListNode p = new ListNode(Math.max(n1.val,n2.val));
-        res.next = p;
+        res.next =  p;
     }
     public ListNode swapPairs(ListNode head) {
         ListNode p = head;

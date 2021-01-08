@@ -37,7 +37,7 @@ public class DateTimeDemo {
     }
     @Test
     public void testLocalDateTime(){
-        LocalDateTime now = LocalDateTime.now();//2020-12-29T11:03:49.994
+        LocalDateTime now = LocalDateTime.now() ;//2020-12-29T11:03:49.994
 
         LocalDateTime d1 = LocalDateTime.of(2013, 12, 31, 23, 59);//2013-12-31T23:59
         //年月日 时分秒 纳秒
